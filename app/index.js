@@ -4,8 +4,8 @@ var routes = require('./config/routes');
 
 var HelloMessage = React.createClass({
   render: function() {
-    return (<div>Hello World</div>);
+    return <div>Hello World</div>
   }
 });
 
-ReactDOM.render(<HelloMessage/>, document.getElementById('app'));
+ReactDOM.render(routes, document.getElementById('app'));
