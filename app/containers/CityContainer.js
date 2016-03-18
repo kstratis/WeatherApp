@@ -26,9 +26,7 @@ var CityContainer = React.createClass({
 
     handleSubmitCity: function (e) {
         e.preventDefault();
-
-        console.log('handlesubmitcity was just invoked');
-        console.log('The city is: ' + this.state.city)
+        // console.log('The city typed is: ' + this.state.city)
         var city = this.state.city;
 
         // var username = this.state.username;
