@@ -16,10 +16,14 @@ var styles = {
     width: '100%'
   },
   header: {
+    padding: '15px',
     fontSize: 45,
-    color: '#fff',
+    color: 'gray',
     fontWeight: 100,
-    backgroundColor: '#9bdef8'
+    backgroundColor: '#fff',
+    border: '1px solid black',
+    borderRadius: '40px'
+
   },
 }
 
